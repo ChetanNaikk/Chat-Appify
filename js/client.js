@@ -33,7 +33,7 @@ form.addEventListener('submit', (e)=>{
 })
 
 //New user name
-// const name = prompt("Enter your name to Join");
+const name = prompt("Enter your name to Join");
 socket.emit('new-user-joined', name);
 
 //Let the server know about new user
